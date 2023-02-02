@@ -1,0 +1,464 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:  0;
+		 
+	font-family:"Trebuchet MS", Helvetica,
+	 sans-serif;
+	background-color: #eec;
+	}
+
+h1 {
+	font-size: 2.5em;
+
+}
+h2{
+
+	font-size: 2em;
+	margin: 0;
+}
+h3{
+	font-size: 1.5em;
+}
+
+p{
+	font-size: 1rem;
+}
+a{
+	font-size: 1em;
+	text-decoration: none;
+}
+
+
+.link-pagina {
+	padding: .5em;
+	margin: 1em;
+	border: .4em solid #d2691e;
+	border-radius: 1em;
+	background-color: #ff7f50;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+
+.volver-aside {
+	padding: .5em;
+	margin: .1em;
+	border: .4em solid #d2691e;
+	border-radius: 1em;
+	background-color: #ff7f50;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;	
+}
+
+
+.container{
+	max-width: 1400px;
+	margin: auto;
+}
+
+
+/*menu*/
+header{
+	background-color: #ddd;
+	height: 25vh;
+	width: 100%;
+	padding: 0!important;
+	margin: 0;
+	z-index: 100000;
+	}
+
+/*nav*/
+header #nav-portafolio{
+	display: flex;
+	flex-direction: row;
+	margin:0;
+	position: fixed;
+	width: 100vw;
+}
+
+/*p logo*/
+header .logo-nav{
+	text-align: center;
+	margin: 0;
+	padding: .55em .3em;
+	font-size: 1.1em;
+}
+
+header #a-nav{
+	display: inline-block;
+color: #000;
+margin: 0em;
+padding: 0.2em 0.3em;
+content: 3em;
+outline: .1em solid #000;
+	margin: 0;
+	
+}
+
+
+
+header .img-nav-inicio{
+	margin-right: 0.3em;
+	width: 1.2em;
+}
+
+
+
+
+
+
+/*main*/
+main{
+	color: #ddb;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 75vh;
+	background-image: linear-gradient(
+						0deg,
+						rgba(0, 0, 0, .1),
+						rgba(0, 0, 0, .9)),
+					 url("desarrollo-web.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+
+/*sobremi*/
+#div-sobre-mi{
+	
+	margin: .2em;
+	padding: 1em;
+	height: 100vh;
+	text-align: center;
+	padding: .3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	}
+
+.img-sobre-mi-container{
+	box-sizing: content-box;
+	border: .5em solid black;
+	border-radius: 50%;
+}
+
+#img-sobre-mi{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: left;
+	overflow: hidden;
+	object-position: center;
+	border-radius: 50%;
+}
+
+div .img-nav-inicio{
+	margin-right: 0.3em;
+	width: 1.2em;
+}
+
+#div-sobre-mi #menu-nav{
+	padding: .5em;
+	border: .1em solid #000;
+	border-radius: 20%;
+	color: #000;
+	font-size: .75em;
+}
+
+/*aside*/
+aside{
+	text-align: center;
+	height: 100vh;
+	background-image: linear-gradient(
+						0deg,
+						rgba(0, 0, 0, .1),
+						rgba(0, 0, 0, .1)),
+					 url("aside.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+aside .container{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-title{
+	margin: 0;
+	color: rgb(92, 92, 43);
+	padding: 0;
+	font-size: 2.5em;
+}
+
+.card p{
+	font-size: 1em;
+	margin-bottom: 0;
+}
+
+aside .container-ul{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em!important;
+
+}
+
+aside ul{
+	margin: .1em 0 0;
+	padding: .5em;
+	list-style-type: none;
+	line-height: 50px;
+}
+
+aside .card-a{
+	color: #eec;
+	text-decoration: none;
+	padding: .3em;
+	outline: .1em solid #000;
+	color: rgb(92, 92, 43);
+	font-size: 1em!important;
+}
+
+aside .img-nav-inicio{
+	margin-right: 0.3em;
+	width: 1.2em;
+}
+aside #menu-nav{
+	padding: .5em;
+	margin: 0 1em;
+	color: #eec;
+	border: .1em solid #000;
+	border-radius: 20%;
+	font-size: .75em;
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	-ms-border-radius: 20%;
+	-o-border-radius: 20%;
+}
+
+/*articulos y section*/
+
+article {
+	text-align: center;
+	
+	padding: 0.05em 0.3em;
+}
+
+section {
+	background: linear-gradient(to bottom, 
+						#9400d3,
+						#00008b);
+	height: 100vh;
+	margin: .5em 0;
+	border: .3em solid #444;
+
+}
+
+section .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section p{
+	padding: 0 1em;
+	text-align: center;
+}
+
+/*seccion first web*/
+	#section-firstweb .container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+	}
+
+	.container-p-a {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		height: 30em;
+		width: 40em;
+	}
+
+	
+
+ 	#img-firstweb {
+ 		width: 12em;
+
+
+}
+
+	section #Descripcion-firstweb{
+	padding: 0 1em;
+	text-align: center;
+}
+
+
+	/*contactame*/
+	#footer-portafolio{
+		padding: .1em;
+	color: #ddb;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 30vh;
+	background-image: linear-gradient(
+						0deg,
+						rgba(0, 0, 0, .7),
+						rgba(0, 0, 0, .7)),
+					 url("contactos.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#a-footer{
+	color: #ddb;
+	text-decoration: none;
+	padding: .1em;
+	margin: .1em;
+}
+footer .titulo-contact-porta{
+	margin-bottom: 1em;
+}
+footer #menu-nav{
+	margin-top:1em;
+	color: #000;
+	background-color: #eec;
+	border: .5em solid #eec;
+	border-radius: 20%;
+	font-size: .75em;
+}
+footer .img-nav-inicio{
+	margin-right: 0.3em;
+	width: 1.2em;
+}
+
+
+
+
+/*responsive*/
+
+@media screen and (min-width: 720px){
+	/*header*/
+	header{
+		height: 12vh;
+		padding: .5em;
+		font-size: 1em;
+	}
+	header .container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	header .nav-portafolio{
+		flex-direction: row;
+		padding: 1em;
+		margin: 0;
+	}
+	header #a-nav{
+		outline: none;
+		margin: 0 1em;
+	}
+	
+	header #a-nav:hover{
+	outline: .2em solid #bbb;
+	margin: 0 1em;
+	background-color: #eec;
+}
+
+	/*main*/
+	main{
+		height: 88vh;
+	}
+	h1{
+		font-size: 3.5em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+
+	/*sobre-mi*/
+	div .a-footer:hover{
+	background-color: gray;
+	}
+
+	/*aside*/
+	aside .container-ul{
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 2em;
+		margin-bottom: 10em;
+	}
+	h4{
+		font-size: 3em;
+	}
+	aside #section-firstweb-h3{
+		font-size: 1.5em;
+	}
+	aside #listado-paginas-izq{
+		margin-right: 3em;
+	}
+	aside #listado-paginas-der{
+		margin-left: 3em;
+	}
+	aside #first-Web-item{
+		margin-top: -2em;
+		margin-bottom: 2em;
+	}
+	aside #tercera-Web-item{
+		margin-top: -2em;
+		margin-bottom: 2em;
+	}
+	aside a:hover{
+	background-color: gray;
+	}
+
+	/*article sections*/
+	.container .volver-aside:hover {
+	box-shadow: 7px 7px 10px 0 #cd853f;
+	}
+	.link-pagina:hover {
+	box-shadow: 7px 7px 10px 0  #cd853f;
+	}
+
+	/*sobre-mi*/
+
+	.container-footer{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	footer #a-footer{
+		padding: .5em;
+		margin: 0 1em;
+	}
+	footer #a-footer:hover{
+		padding: .5em;
+		outline: .2em solid #eec;
+	}
+
+	footer #menu-nav{
+		margin-top: 2em;
+	}
+	footer #menu-nav:hover{
+	background-color: #eec;
+	}
+	#img-sobre-mi{
+	width: 250px;
+	height: 250px;
+}
+}
